@@ -1,0 +1,221 @@
+/*********************************
+GENERAL
+**********************************/
+body {
+	height: 100%;
+	width: 100%;
+}
+
+.background {
+	background: url("../Img/Background.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -1000;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.body_warp {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -990;
+	background: gray;
+	opacity: 0.6;
+}
+
+/*********************************
+header
+**********************************/
+header {
+	background: #6FB824;
+	width: 100%;
+	padding: 0px 10px 5px;
+	margin: 0 0 10px 0;
+	float: left;
+	height: 85px;
+}
+
+#header_wrapper {
+	text-align: center;
+	overflow: hidden;
+}
+
+#Logo {
+	float: left;
+	padding-left: 20%;
+}
+
+h3 {
+	text-align: left;
+	padding: 5px 10px 0px;
+	font-family: "Euphemia", sans-serif;
+}
+
+/*********************************
+Navigation
+*********************************/
+#nav {
+	float: left;
+	text-align: center;
+	padding: 0px 10px;
+	margin: -5px 20px 0;
+}
+
+#nav ul {
+	padding: 0;
+	margin: 0 10px;
+}
+
+#nav li {
+	display: inline-block;
+}
+
+#nav a {
+	color: white;
+	font-family: Georgia;
+	padding: 5px 15px;
+}
+
+.selected {
+	background: #66A821;
+}
+/*********************************
+Footer
+*********************************/
+footer {
+	clear: both;
+	text-align: center;
+	background: #6FB824;
+	width: 100%;
+	color: #fff;
+	font-size: 0.75em;
+	padding: 5px 0;
+	font-family: Arial;
+}
+
+/******************************
+aside
+******************************/
+.aside {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-right: 1px solid #b4b3b3;
+	width: 25%;
+}
+.aside h4
+{
+	color:rgb(48, 80, 15);
+	text-align:center;
+}
+
+/********************************************************************************************
+									HOME PAGE - START
+********************************************************************************************/
+/************************************
+Gallery
+************************************/
+.content {
+	background: #fff;
+	
+	width: 80%;
+	float: left;
+	margin: 0px 30px;
+	padding: 10px 10px;
+	position: relative;
+	left: 100px;
+	border: 2px solid #000;
+}
+/***************************
+section
+****************************/
+.section {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 75%;
+}
+
+#home_gallery li , #gallery li{
+	display: inline-block;
+	padding: 5px 5px;
+	margin: 5px 10px;
+}
+
+#home_gallery li img, #gallery li img {
+	width: 200px;
+	height: 150px;
+}
+
+#section_h2 {
+	text-align: center;
+	font-family: Arial;
+	word-wrap: normal;
+}
+
+/********************************************************************************************
+									HOME PAGE - END
+********************************************************************************************/
+
+/********************************************************************************************
+									CONTACT US PAGE - START
+********************************************************************************************/
+.Section_heading {
+	color: rgb(48, 80, 15);
+	padding: 10px 20px;
+	margin: 20px, 20px;
+}
+
+#section_p {
+	text-align: center;
+	padding: 0 10px;
+	font-family: Arial;
+}
+
+.contact_list {
+	text-align: center;
+}
+/********************************************************************************************
+									CONTACT US PAGE - END
+********************************************************************************************/
+
+/********************************************************************************************
+									ABOUT US PAGE - START
+********************************************************************************************/
+.about_content {
+	overflow: auto;
+	height: 400px;
+	padding: 0, 20px;
+	margin:0, 200px;
+	
+}
+
+/********************************************************************************************
+									ABOUT US PAGE - END
+********************************************************************************************/
+
+/********************************************************************************************
+									GALLERY PAGE - START
+********************************************************************************************/
+#gallery li
+{
+	display:inline;
+}
+/********************************************************************************************
+									GALLERY PAGE - END
+********************************************************************************************/
