@@ -83,6 +83,7 @@ Navigation
 
 #nav li {
 	display: inline-block;
+	float:left;
 }
 
 #nav a {
@@ -94,6 +95,17 @@ Navigation
 .selected {
 	background: #66A821;
 }
+.dropdown-menu
+{
+	display:none;
+}
+#nav li:hover .dropdown-menu
+{
+	display:block;
+}
+
+
+
 /*********************************
 Footer
 *********************************/
@@ -112,11 +124,9 @@ footer {
 aside
 ******************************/
 .aside {
-	position: absolute;
-	top: 0;
-	left: 0;
 	border-right: 1px solid #b4b3b3;
 	width: 25%;
+	float:left;
 }
 .aside h4
 {
@@ -131,8 +141,7 @@ aside
 Gallery
 ************************************/
 .content {
-	background: #fff;
-	
+	background: #fff;	
 	width: 80%;
 	float: left;
 	margin: 0px 30px;
@@ -145,10 +154,7 @@ Gallery
 section
 ****************************/
 .section {
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 75%;
+	width: 95%;
 }
 
 #home_gallery li , #gallery li{
@@ -199,7 +205,6 @@ section
 ********************************************************************************************/
 .about_content {
 	overflow: auto;
-	height: 400px;
 	padding: 0, 20px;
 	margin:0, 200px;
 	
