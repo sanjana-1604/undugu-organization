@@ -37,6 +37,26 @@ a {
 	background: gray;
 	opacity: 0.6;
 }
+button
+{
+	background: url("../Img/Button.png") no-repeat center;
+	border: 1px solid;
+	border-radius: 25px;
+	text-align:center;
+	padding:5px 10px;
+	margin:0 80px;	
+}
+button a
+{
+	color:white;
+	text-align:center;
+	padding:5px 10px;
+	margin:0 auto;	
+}
+p
+{
+	font-family:Arial;
+}
 
 /*********************************
 header
@@ -112,7 +132,7 @@ Footer
 footer {
 	clear: both;
 	text-align: center;
-	background: #6FB824;
+	background: rgb(42,102,0);
 	width: 100%;
 	color: #fff;
 	font-size: 0.75em;
