@@ -3,8 +3,12 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Undugu | Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="css/normalize.css" type="text/css" rel="stylesheet">
 <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
+
+
 </head>
 <body>
 
@@ -18,15 +22,16 @@
 			<h3>Reaching Communities, changing Lives, Raising Future Leaders</h3>
 			<nav id="nav">
 				<ul>
-					<li><a href="Home.html" >Home</a></li>
+					<li><a href="index.html" >Home</a></li>
 					<li><a href="AboutUs.html">About Us</a></li>
 					<li><a href="Gallery.html" class="selected">Gallery</a></li>
-					<li><a href="#">Projects</a></li>
+					<li><a href="Project.html">Projects</a></li>
 					<li><a href="">Volunteer &#9662;</a>
-					<ul class="dropdown-menu">
-					<li><a href="USA_Volunteer.html" >USA Volunteer</a></li>
-					<li><a href="Africa_Volunteer.html" >Africa Volunteer</a></li>
-					</ul>
+						<ul class="dropdown-menu">
+						<li><a href="USA_Volunteer.html" >USA Volunteer</a></li>
+						<li><a href="Africa_Volunteer.html" >Africa Volunteer</a></li>
+						</ul>
+					</li>
 					</li>
 					<li><a href="Donate.html">Donate</a></li>
 					<li><a href="ContactUs.html">Contact US</a></li>
@@ -37,31 +42,86 @@
 	<div class="content">
 		<aside class="aside">
 		<h4>CONNECT</h4>
-		<a class="twitter-timeline"
-				href="https://twitter.com/UnduguCharities"
-				data-widget-id="473571454663917568">Tweets by @UnduguCharities</a>
+<iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fundugucharities&amp;width=200px&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200pxpx; height:290px;" allowTransparency="true"></iframe>
+<a class="twitter-timeline" href="https://twitter.com/UnduguCharities" data-widget-id="489625307238764544">Tweets by @UnduguCharities</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			<h4>EVENTS</h4>
+			<button><a href="Donate.html">DONATE</a></button>
 		</aside>
 		<section class="section">
 		<h2 class="Section_heading">GALLERY</h2>
-			<ul id="gallery">
-				<li><img src="Img/gallery1.jpg" alt="two boys image"></li>
-				<li><img src="Img/gallery2.jpg" alt="Some boys image"></li>
-				<li><img src="Img/gallery3.jpg" alt="some boys image"></li>
-				<li><img src="Img/gallery4.jpg" alt="some boys image"></li>
-				<li><img src="Img/gallery5.jpg" alt="some boys image"></li>
-				<li><img src="Img/gallery6.jpg" alt="some boys image"></li>
-				<li><img src="Img/gallery7.jpg" alt="some boys image"></li>
-				<li><img src="Img/gallery8.jpg" alt="some boys image"></li>
-				<li><img src="Img/gallery9.jpg" alt="some boys image"></li>
-				<li><img src="Img/gallery10.jpg" alt="some boys image"></li>
-				<li><img src="Img/gallery11.jpg" alt="some boys image"></li>
-				<li><img src="Img/gallery12.jpg" alt="some boys image"></li>
-				<li><img src="Img/gallery13.jpg" alt="some boys image"></li>
-				<li><img src="Img/Img_3.png" alt="some boys image"></li>
-				<li><img src="Img/Img_2.jpg" alt="some boys image"></li>
-				<li><img src="Img/Img_1.jpg" alt="some boys image"></li>
-			</ul>
+			<div class="carousel slide" id="MyCarousel">
+					<!-- Indicator -->
+					<ol class="carousel-indicators">
+						<li class="active" data-slide-to="0" data-target="#MyCarousel"></li>
+						<li data-slide-to="1" data-target="#MyCarousel"></li>
+						<li data-slide-to="2" data-target="#MyCarousel"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active" id="slide1">
+							<img src="Img/gallery1.jpg" alt="two boys image">
+						</div>
+						<div class="item" id="slide2">
+							<img src="Img/gallery2.jpg" alt="some boys image">
+						</div>
+						<div class="item" id="slide3">
+							<img src="Img/gallery3.jpg" alt="some boys image">
+						</div>
+						<div class="item" id="slide4">
+							<img src="Img/gallery4.jpg" alt="some boys image">
+						</div>
+						<div class="item" id="slide5">
+							<img src="Img/gallery5.jpg" alt="some boys image">
+						</div>
+						<div class="item" id="slide6">
+							<img src="Img/gallery6.jpg" alt="some boys image">
+						</div>
+						<div class="item" id="slide7">
+							<img src="Img/gallery7.jpg" alt="some boys image">
+						</div>
+						<div class="item" id="slide8">
+							<img src="Img/gallery8.jpg" alt="some boys image">
+						</div>
+						<div class="item" id="slide9">
+							<img src="Img/gallery9.jpg" alt="some boys image">
+						</div>
+						<div class="item" id="slide10">
+							<img src="Img/gallery10.jpg" alt="some boys image">
+						</div>
+						<div class="item" id="slide11">
+							<img src="Img/gallery11.jpg" alt="some boys image">
+						</div>
+						<div class="item" id="slide12">
+							<img src="Img/gallery12.jpg" alt="some boys image">
+						</div>
+						<div class="item" id="slide13">
+							<img src="Img/gallery13.jpg" alt="some boys image">
+						</div>
+						<div class="item" id="slide14">
+							<img src="Img/Img_3.jpg" alt="some boys image">
+						</div>
+						<div class="item" id="slide15">
+							<img src="Img/Img_2.jpg" alt="some boys image">
+						</div>
+						<div class="item" id="slide16">
+							<img src="Img/Img_1.jpg" alt="some boys image">
+						</div>
+
+					</div>
+					<!-- arrow controls -->
+					<a class="carousel-control left" data-slide="prev"
+						href="#MyCarousel">&lsaquo;</a> <a
+						class="carousel-control right" data-slide="next"
+						href="#MyCarousel">&rsaquo;</a>
+
+				</div>
+			<div class="partners-logos">
+			<h1>Our Partners</h1>
+			   <img src="Img/resource-institute.jpg" class="logo">
+			   <img src="Img/clyf logo.jpg" class="logo">
+			   <img src="Img/etuko_logo.jpg" class="logo">
+			   <img src="Img/rafiki picture.jpg" class="logo">
+		</div>
 		</section>
 	</div>
 	<footer>
@@ -81,6 +141,8 @@
 			}
 		}(document, "script", "twitter-wjs");
 	</script>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="css/bootstrap.min.js"></script>
 
 </body>
 </html>

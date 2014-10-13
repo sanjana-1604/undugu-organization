@@ -44,7 +44,7 @@ button
 	border-radius: 25px;
 	text-align:center;
 	padding:5px 10px;
-	margin:0 80px;	
+	margin:0 103px;	
 }
 button a
 {
@@ -56,6 +56,20 @@ button a
 p
 {
 	font-family:Arial;
+}
+ .partners-logos 
+{	position:absolute;
+	bottom: 0;
+	display: table;
+	margin-left: 25em;
+}
+.logo
+{
+    height:20%;
+	width:20%;
+	margin:0.5em;
+	margin-left:1.6em;
+	text-align:center;
 }
 
 /*********************************
@@ -89,7 +103,8 @@ h3 {
 /*********************************
 Navigation
 *********************************/
-#nav {
+
+ #nav {
 	float: left;
 	text-align: center;
 	padding: 0px 10px;
@@ -110,6 +125,9 @@ Navigation
 	color: white;
 	font-family: Georgia;
 	padding: 5px 15px;
+} 
+#nav a:hover {
+	background: #66A821;
 }
 
 .selected {
@@ -118,11 +136,25 @@ Navigation
 .dropdown-menu
 {
 	display:none;
+	position: absolute;
+	z-index: 2;
+	background: #66A821;
+	padding: 0px 0px;
+	width: 13%;
 }
 #nav li:hover .dropdown-menu
 {
-	display:block;
+	display: inline;
+	position: absolute;
+	z-index: 2;
 }
+.dropdown-menu li
+{
+	padding: 10px 0px;
+	padding-right: 10px;
+	width: 90%;
+}
+
 
 
 
@@ -145,8 +177,9 @@ aside
 ******************************/
 .aside {
 	border-right: 1px solid #b4b3b3;
-	width: 25%;
+	width: 31%;
 	float:left;
+	
 }
 .aside h4
 {
@@ -164,12 +197,22 @@ Gallery
 	background: #fff;	
 	width: 80%;
 	float: left;
-	margin: 0px 30px;
+	margin: 0px 10%;
+	margin-left: 2%;
 	padding: 10px 10px;
 	position: relative;
 	left: 100px;
 	border: 2px solid #000;
 }
+.carousel{
+position: absolute;
+left: 35%;
+}
+  
+    .carousel img { 
+      width: 80%;
+	  height: auto;
+	  }
 /***************************
 section
 ****************************/
@@ -184,7 +227,7 @@ section
 }
 
 #home_gallery li img, #gallery li img {
-	width: 200px;
+	width: 197px;
 	height: 150px;
 }
 
@@ -223,11 +266,12 @@ section
 /********************************************************************************************
 									ABOUT US PAGE - START
 ********************************************************************************************/
-.about_content {
+
+.about_content {	
 	overflow: auto;
-	padding: 0, 20px;
-	margin:0, 200px;
-	
+	height:75em;
+	padding-left: 3%;
+	margin:0, 200px;	
 }
 
 /********************************************************************************************
@@ -243,4 +287,29 @@ section
 }
 /********************************************************************************************
 									GALLERY PAGE - END
+********************************************************************************************/
+
+.jotform-form {
+	position: absolute;
+	width: 100%;
+	margin-left:2em;
+}
+.volunteer-form {
+	position: absolute;
+	width: 100%;
+	margin-left: 30%; 
+}
+
+/********************************************************************************************
+									PROJECT PAGE - START
+********************************************************************************************/
+.Project_List
+{
+list-style-type:circle;
+padding-left:23em;
+
+}
+
+/********************************************************************************************
+									PROJECT PAGE - END
 ********************************************************************************************/
