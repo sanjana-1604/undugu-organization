@@ -2,10 +2,11 @@
 
 ## Description
 
-My first Volunteer project as Web developer. Created this page for non profit organization and learned 
+My first Volunteer project as Web developer. Created this page for non profit organization and learned the basics of web development
 
 
-## Installation
+## Link to the deployed application
+http://sanjana-1604.github.io/undugu-non-profit-organization/
 
 
 
