@@ -6,7 +6,7 @@ My first Volunteer project as Web developer. Created this page for non profit or
 
 
 ## Link to the deployed application
-http://sanjana-1604.github.io/undugu-non-profit-organization/
+http://sanjana-1604.github.io/undugu-organization/
 
 
 
